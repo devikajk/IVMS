@@ -1,0 +1,146 @@
+/* 
+#363636 - black   background: #363636;
+#99d8d0 - blue    background: #99d8d0;
+#b7efcd - green
+#ffbcbc - pink
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Alata', sans-serif;
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-color: #363636;
+  color: #b7efcd;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Alata', sans-serif;   
+  padding-top: 2%;
+}
+
+.head h1{ 
+  padding-bottom: 3%;
+  padding-top: 1%;
+  margin-left: 0%;
+}
+
+/* Nav menu*/
+
+nav{
+  float: right;
+  padding-top: 3%;
+  
+}
+
+nav ul li{
+	background: #363636;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: #ffbcbc;
+	text-decoration: none;
+	line-height: 60px;
+  font-size: 130%;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	background:  #ffbcbc;
+	color: #363636;
+}
+
+nav ul ul{
+	position: absolute;
+	top:60px;
+	display: none;
+}
+
+nav ul li:hover >ul{
+	display:block;
+}
+
+nav ul ul li{
+	width:300px;
+	float: none;
+	display: list-item;
+	position:relative;
+}
+
+.footer {
+  /* position: fixed; */
+  /* left:0px;
+  bottom:0px; */
+  height: 35%;
+  /* width:100%; */
+  padding: 10px 100px;
+  background-color: #363636;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.socials > * {
+  margin: 15px;
+}
+
+.site>* {
+  filter: invert(98%) sepia(1%) saturate(1%) hue-rotate(26deg) brightness(104%) contrast(100%);
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 5px;
+  font-weight: bolder;
+}
+
+.site>img {
+  margin-bottom: -3px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact > * {
+  font-family: 'Montserrat', sans-serif; 
+  color: white;
+}
+
+.subhead{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 180%;
+  font-weight: bold;
+  color: #363636;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.content{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 140%;
+  font-weight: bold;
+  color: #363636;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: justify;
+}
+
+.names{
+  list-style-type: square;
+  padding-left: 5%;
+}

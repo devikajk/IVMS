@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+/* 
+#363636 - black
+#99d8d0 - blue
+#b7efcd - green
+#ffbcbc - pink
+*/
+
+/* font-family: 'Alata', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(153, 216, 208, 0.5);
+}
+
+header {
+  height: 100px;
+  top: 0;
+  width: 100%;
+  background-color: #363636;
+  color: white;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > h1 {
+  font-family: "Alata", sans-serif;
+  letter-spacing: 3px;
+  margin-left: 20px;
+}
+
+h1 > a {
+  text-decoration: none;
+  color: white;
+}
+
+header > * {
+  padding: 0 20px;
+}
+
+.header-right > a {
+  margin: 0 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.view-more {
+  color: #363636;
+}
+
+nav {
+  position: fixed;
+  top: 100px;
+  background-color: #ffbcbc;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > a {
+  margin: 0 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #363636;
+  transition: 0.2s all fade-in;
+}
+
+nav > a:hover {
+  color: white;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner > img {
+  width: 100%;
+}
+
+section {
+  padding: 0 40px;
+}
+
+main {
+  min-height: 50vh;
+}
+
+#tour-main {
+  margin-top: 180px;
+}
+
+section > h1 {
+  font-family: "Alata", sans-serif;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #363636;
+  text-align: center;
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+}
+
+.tour-div,
+.company-div {
+  background-color: white;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.available-tour-div {
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+}
+
+.tour-item,
+.company-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 200px;
+  min-height: 200px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #b7efcd;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.message {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(54, 54, 54, 0.6);
+  letter-spacing: 3px;
+}
+
+.available-item {
+  width: 300px;
+  height: 300px;
+}
+
+.select-button {
+  padding: 12px;
+  margin-top: 16px;
+  border: none;
+  letter-spacing: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s all ease-in-out;
+  text-transform: uppercase;
+  color: #363636;
+  transition: 0.3s all ease-in-out;
+}
+
+.company-item {
+  padding: 20px;
+  height: 100px;
+}
+
+.tour-name,
+.company-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: #363636;
+  margin: 10px;
+}
+
+.tour-description,
+.company-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #363636;
+}
+
+.tour-description {
+  margin: 0px;
+}
+
+.footer {
+  margin-top: 20px;
+  height: 10%;
+  padding: 1% 10%;
+  background-color: #363636;
+  border-top: 5px solid #ffbcbc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.socials > * {
+  margin: 15px;
+}
+
+.site > * {
+  filter: invert(98%) sepia(1%) saturate(1%) hue-rotate(26deg) brightness(104%)
+    contrast(100%);
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 5px;
+  font-weight: bolder;
+}
+
+.site > img {
+  margin-bottom: -3px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact > * {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
